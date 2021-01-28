@@ -1,0 +1,51 @@
+.rating{
+    display: grid;
+    grid-template-rows:10% 90%;
+    margin-top:250px;
+    font-family:'Poppins',sans-serif;
+ 
+}
+
+.rating .rating-body{
+    display:grid;
+    grid-template-columns:repeat(3,4fr);
+    grid-template-rows: 1fr 1fr;
+    position: relative;
+    width:80%;
+    margin:0 auto;
+    margin-top:50px;
+
+}
+.rating .rating-header{
+text-align: center;
+}
+.rating-header .heading{
+    font-weight:600;
+    font-size:16pt;
+}
+.rating-header .title{
+    width:500px;
+    position: relative;
+    margin:0 auto;
+}
+.rating .rate {
+    display:grid;
+    grid-template-rows:6fr 4fr 3fr;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.rating .rate .rate-image{
+    width:30px;
+    height:30px;
+    position: relative;
+    margin:0 auto;
+    box-shadow:1px 25px 24px  rgba(122,122,122,0.3);
+    backdrop-filter: blur(2px);
+    padding:2px;
+    border-radius:5px;
+}
+.rating .rate .title{
+    font-weight: bold;
+    margin-bottom:10px;
+}

@@ -1,0 +1,101 @@
+.insurance{
+    display:grid;
+    grid-template-rows:5% 95%;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(247,247,247,1);
+    min-height:650px;
+    font-family:'Poppins',sans-serif;
+    position: relative;
+    margin-top:250px;
+    
+}
+.insurance .header{
+    font-size:16pt;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top:10px;
+}
+.insurance .tips{
+    display:flex;
+    overflow: auto;
+    padding-bottom:100px;
+
+    padding-left:20%;
+}
+.insurance .tips >div:last-child{
+    padding-right:20%;
+}
+/**/
+/*
+::-webkit-scrollbar              
+::-webkit-scrollbar-button       
+::-webkit-scrollbar-track        
+::-webkit-scrollbar-track-piece 
+::-webkit-scrollbar-thumb        
+::-webkit-scrollbar-corner       
+::-webkit-resizer               
+*/
+.insurance .tips::-webkit-scrollbar{
+    height:7px;
+
+    position: absolute;
+
+}
+.insurance .tips::-webkit-scrollbar-button{
+    width:20vw;
+    z-index:-1;
+}
+
+
+.insurance .tips::-webkit-scrollbar-thumb{
+    border-radius:5px;
+    background-color: #2166B1;
+    cursor: pointer;
+    margin-bottom:10px;
+}
+.insurance .tips::-webkit-scrollbar-track{
+
+
+    border-bottom:1px solid rgba(0,0,0,0.5);
+    box-sizing: border-box;
+    cursor: pointer;
+    z-index:1;
+}
+.insurance .tips .tip:not(:nth-child(1)){
+    margin-left:50px;
+}
+.insurance .tips .tip{
+    min-width:250px;
+
+
+}
+ .insurance .tips .tip > .tip-title{
+    font-size:15pt;
+    margin-bottom:10px;
+} 
+.tohold{
+    position: absolute;
+    background-color: rgb(255,255,255);
+    opacity: 0.5;
+    height:100%;
+    width:20vw;
+    
+}
+.scroll-manager{
+    width:40%;
+    margin-left:30%;
+    position: absolute;
+
+    border:1px solid;
+    bottom:55px;
+    z-index: 1;
+}
+
+.left{
+
+}
+.right{
+    right:0px;
+}

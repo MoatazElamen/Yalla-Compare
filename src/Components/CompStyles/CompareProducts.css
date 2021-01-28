@@ -1,0 +1,84 @@
+.compareproducts{
+    display:grid;
+    grid-template-rows:20%  20% 60%;
+    justify-content: center;
+    align-items: center;
+    font-family:'Poppins',sans-serif;
+    position: relative;
+    gap:20px;
+    width:90%;
+    margin:0 auto;
+    margin-top:150px;
+}
+.compareproducts .title{
+    text-align: center;
+    position: relative;
+    top:50px;
+    margin-bottom:20px;
+    font-size:15pt;
+    font-weight: bold;
+
+}
+.compareproducts .control {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 3;
+    background:white;
+    width:400px;
+    margin:0 auto;
+}
+.compareproducts .control .control-item{
+    border:1px solid #2166B1;
+    padding: 5px 10px;
+    font-weight: 500;
+    font-size:11pt;
+    cursor: pointer;
+}
+ .focused-c-item{
+    background-color:  #2166B1;
+    color:white;
+
+}
+.c-products-item{
+    position: relative;
+}
+.c-products-text{
+    position:absolute;
+    height:50px;
+    background-color:#2166B1;
+    padding:5px 20px;
+    padding-top:10px;
+    color:white;
+    font-size:8pt;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-radius:2px;
+    bottom:20px;
+    right:-10px;
+}
+.c-products-text h2{
+    margin:0;
+    font-size:9pt;
+    line-height: 0px;
+}
+.c-products-text p{
+    line-height: 5px;
+    position: relative;
+}
+.compareproducts .c-products{
+    display:grid;
+    grid-template-columns:repeat(4,3fr);
+    gap:40px;
+    padding:20px;
+}
+.absolute-line{
+    z-index:1;
+    position: absolute;
+    border-top:1px solid rgba(0,0,0,0.3);
+    width:100%;
+    top:120px;
+}

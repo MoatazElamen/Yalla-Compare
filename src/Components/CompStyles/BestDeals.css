@@ -1,0 +1,57 @@
+.bestdeals{
+    padding:50px 0;
+    min-height:400px;
+    background-color: #2166B1;
+    position: relative;
+    margin-top:150px;
+}
+.bestdeals .halfborder{
+    height:15px;
+    width:60%;
+    position: absolute;
+    background-color: #327DCE;
+    z-index: 2;
+    top:-10px;
+}
+.bestdeals-container{
+    display:grid;
+    grid-template-columns:60% 40%;
+    width:80%;
+    position: relative;
+    margin:0 auto
+}
+.bestdeals-container .bestdeals-right{
+    position: relative;
+
+}
+.bestdeals-container .bestdeals-right > img{
+    position: absolute;
+    width: 140%;
+    right:-30%;
+    top:-100px;
+}
+.bestdeals-container .besdeals-left .header{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-rows:2fr 2fr;
+    color:white;
+}
+.bestdeals-container .besdeals-left .header >.header-title{
+    font-weight: bold;
+}
+.bestdeals-container .besdeals-left > .body{
+    margin-top:50px;
+    display:grid;
+    grid-template-rows:repeat(3 ,4fr);
+    align-items: end;
+    align-self: end;
+    gap: 50px;
+    color:white;
+
+}.bestdeals-container .besdeals-left > .body>.body-item{
+    display:grid;
+    grid-template-columns:1fr 11fr;
+    gap:20px;
+    align-items: center;
+}

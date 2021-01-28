@@ -1,0 +1,116 @@
+.footer-container{
+    width:100%;
+    position: relative;
+    font-family:'Poppins',sans-serif;
+    margin-top:250px;
+    bottom:0;
+}
+.footer{
+    position: relative;
+
+
+    gap:0px;
+    max-height:300px;
+}
+/*
+upper footer section
+*/
+.footer .petra{
+    width:80%;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns:3% 97%;
+    align-items: center;
+    gap:20px;
+    height:60px;
+
+}
+.footer .petra .petra-img{
+    justify-self:start;
+}
+/*
+dark footer section
+*/
+.footer .dark-footer-container{
+    background-color: #22262A;
+    position: relative;
+}
+.footer .dark-footer{
+    display:grid;
+    position: relative;
+    height:60px;
+    width:80%;
+    margin:0 auto;
+
+    grid-template-columns:20% 70% 10%;
+    align-items: center;
+   
+    font-size:10px;
+    color:rgb(166,166,166);
+}
+
+.dark-footer .footer-logo{
+    display:flex;
+    justify-content: center;
+    justify-self: start;
+    align-self: center;
+}
+.dark-footer .footer-bar{
+    display:grid;
+    grid-template-columns:repeat(6,1fr);
+    gap:10px;
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+}
+.dark-footer .footer-bar div{
+    transition: color 0.5s ease-in-out;
+    cursor: pointer;
+}
+.dark-footer .footer-bar div:hover{
+    color:white;
+}
+.footer .dark-footer .footer-social{
+    display:grid;
+    grid-template-columns:repeat(5,1fr);
+    font-size:16pt;
+    gap:10px;
+    justify-self: end;
+    cursor: pointer;
+    color:rgb(166,166,166);
+    transition:all 1s ease-in-out;
+    
+}
+.footer .dark-footer .footer-social > span:hover{
+    color:white;
+
+}
+
+/*
+footer last section
+*/
+.footer .footer-last{
+    position: relative;
+    width:80%;
+    margin:0 auto;
+    background-color: white;
+    display:grid;
+    grid-template-columns:8fr 2fr 2fr;
+    gap:30px;
+    height:60px;
+
+    align-items: center;
+}
+.footer .footer-last .payment{
+    display:grid;
+    grid-template-columns:repeat(3,4fr);
+    gap:10px;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.footer .footer-last .footer-app{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+
+}

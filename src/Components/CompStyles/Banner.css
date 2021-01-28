@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+.banner{
+    position: relative;
+    overflow:hidden;
+    margin-bottom:30px;
+    margin-top:50px;
+}
+
+.banner .header{
+    font-size:12vw;
+    font-family:  sans-serif;
+    position: relative;
+    font-weight:bold;
+    color:rgba(122,122,122,0.3);
+    bottom:20px;
+    padding-left:10px;
+}
+.banner-container{
+    display: flex;
+    position: relative;
+}
+.banner-container img {
+    position: relative;
+    left:40%;
+    bottom:50px;
+}
+.banner-text{
+    position: absolute;
+    font-family:'Poppins',sans-serif;
+    padding-left:100px;
+    width:50vw;
+    display:grid;
+
+}
+.banner-title{
+    font-size:2.4vw;
+}
+.banner-title span{
+    display: block;
+}
+.banner-important{
+    font-size:3vw;
+    font-weight:800;
+}
+/*banner plus text*/
+.banner-plus{
+    position: relative;
+    margin-top:20px;
+    margin-bottom:10px;
+    font-size:1vw;
+}
+.banner-plus span{
+    color:#E84C9B;
+}
+/* banner buttons*/
+.banner-buttons{
+    display:grid;
+    width:60%;
+    grid-template-columns:1fr 1fr 1fr;
+    gap:5px;
+}
+.banner-buttons button{
+    border:none;
+    padding:0.5rem;
+    background-color: transparent;
+    color:#222E3C;
+    font-family:'Poppins',sans-serif;
+    cursor: pointer;
+}
+.banner-buttons button:focus{
+    outline:none
+}
+.banner-buttons .active{
+
+    background-color: #2166B1;
+    color:white;
+    font-weight: bold;
+}
+.banner-buttons .normal{
+    color:#222E3C;
+    border:1px solid #2166B1
+
+}
+/*end banner buttons*/
+
+/* start discount kit*/
+    .banner .discount-text{
+        text-align: center;
+        color:#E84C9B;
+        margin-right:20px;
+    }
+
+    .banner .discount{
+        display:grid;
+        width:46%;
+        margin-top:20px;
+        font-family:'Poppins',sans-serif;
+        font-size:15pt;
+        grid-template-columns: 1fr 1fr;
+    }
+    .banner .discount-timer{
+        
+
+    }
+    .countdown{
+        display:grid;
+        grid-template-columns:repeat(8,20px);
+        column-gap:80px;
+        margin-left:20px;
+    }
+    .countdown .count-item div{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-family:'Poppins',sans-serif;
+    
+    }
+    .countdown .count-item div:nth-child(2){
+        color:rgba(122,122,122,0.6);
+        font-size:11pt;
+    }
+    
+/*end discount kit*/
+
+
+/*
+finance kit
+*/
+.finance{
+    width:100%;
+    background-color: #2166B1;
+    font-family:'Poppins',sans-serif;
+}
+.finance-container{
+    position: relative;
+    height:250px;
+
+    font-weight:900;
+    display:grid;
+    grid-template-columns:6fr 10px 6fr;
+    gap:2px;
+    justify-content: space-between;
+    align-items: center;
+    width:90%;
+    margin:0 auto;
+
+}
+.finance-container > div:nth-child(2){
+    color:rgb(222,222,222);
+    font-size:20pt;
+    position: relative;
+    bottom:5px;
+}
+.finance-right{
+    display:grid;
+    grid-template-columns:repeat(4,3fr);
+    gap:20px;
+    justify-content:end;
+    align-items: center;
+    margin-left:20px;
+    justify-self:start;
+    grid-auto-columns:minmax(150px,auto);
+}
+.finance-right .business{
+    
+}
+.finance-right .intrepreneur{
+    position: relative;
+    top:5px;
+
+}
+.finance-left{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    justify-content: start;
+    justify-self: start;
+    
+}
+.finance-left .text{
+    color:white;
+    display:grid;
+    height:100px;
+    align-self: center;
+
+}
+.finance-left .text >div:nth-child(1){
+    font-weight: 500 ;
+}
+.finance-left .text >div:nth-child(1){
+    font-weight: bold ;
+}
+.finance-left .text >div:nth-child(3){
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+.finance-logo{
+ width:200px;
+}
+.finance-logo img{
+    width:100%
+}

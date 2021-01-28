@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:display=swap');
+.navbar{
+    position: relative;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns:repeat(3,4fr);
+    width:95%;
+    height:35px;
+    align-items: center;
+    padding-top:10px;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-brand{
+    max-width:150px;
+    position: relative;
+    top:5px;
+}
+.navbar-middle{
+    display:grid;
+    max-width:470px;
+    grid-template-columns:repeat(4,1fr);
+    justify-self: center;
+    justify-items: center;
+    font-size:.9em;
+}
+.navbar-middle .home::before{
+    content:'/';
+    position: relative;
+    font-size:10pt;
+    bottom:2px;
+    margin-right:3px;
+    color:#E84C9B;
+    font-weight: bold;
+}  
+.navbar-middle div > a{
+    text-decoration: none;
+    color:#222222;
+}
+
+.navbar-right{
+    display:grid;
+    position: relative;
+    grid-template-columns:repeat(3,1fr);
+    justify-self: end;
+    justify-items: end;
+    gap:5px;
+}
+.navbar-right .multichoice{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size:16pt;
+    cursor:pointer;
+    position: absolute;
+    right:0px;
+    margin-left:30px;
+    width:35px;
+    height:35px;
+    background-color: #F2F2F2;
+}
+.navbar-right .icons{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    align-items: center;
+}
+.icons i {
+    position: relative;
+    left:20px;
+    text-align: center;
+}
+.icons {
+    display:grid;
+    gap:6px;
+    position: relative;
+    left:40px;
+}
+.navbar-right button{
+    font-family: 'Poppins', sans-serif;
+    background-color: #2166B1;
+    height:35px;
+    color:white;
+    border:none;
+    position: relative;
+    left:70px;
+    margin-left:10px;
+}
+.navbar-right button:focus{
+    outline: none;
+}
